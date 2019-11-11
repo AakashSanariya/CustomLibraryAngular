@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "api-calling": [
+        "dist/api-calling"
+      ],
+      "api-calling/*": [
+        "dist/api-calling/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
